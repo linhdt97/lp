@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lato';
+}
+.fa-btn {
+    margin-right: 6px;
+}
+.form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.notification-message {
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    z-index: 2000;
+    min-width: 300px;
+}
+.notification-message>div {
+    color: #ffffff;
+    padding: 15px 27px 15px 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+.notification-message .success {
+    background-color: #00a65a;
+}
+.notification-message .error {
+    background-color: #ea3939;
+}
+.notification-message .close-icon {
+    position: absolute;
+    right: 8px;
+    top: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 14px;
+    height: 14px;
+    width: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+.notification-message .close-icon:hover {
+    opacity: 0.5;
+}
+
+/* ********START MOBILE******** */
+@media only screen and (max-width: 600px) {
+    .notification-message {
+        top: 40px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+/* ********END MOBILE******** */
