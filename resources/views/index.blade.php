@@ -1,4 +1,6 @@
-<html><head>
+{{--<!DOCTYPE html>--}}
+<html>
+<head>
     <meta charset="utf-8">
     <title>“CHẤT” party</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -112,6 +114,7 @@
 <script src="{!! asset('js/libs/jquery.min.js') !!}"></script>
 <script src="{!! asset('js/firework.js') !!}"></script>
 <script src="{!! asset('js/libs/undercore.min.js') !!}"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
 <script src="{!! asset('js/script.js') !!}"></script>
 </body>
 </html>
